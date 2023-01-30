@@ -82,7 +82,7 @@ void pop_back()
 
 void erase()
 {
-        int n ; cin>>n;
+    int n ; cin>>n;
     vector <int> arr;
      for(int i =0;i<n;i++)
      {
@@ -97,7 +97,21 @@ void erase()
      arr.erase(arr.begin()+2);
      for(int i=0;i<arr.size();i++) cout << arr[i]<<" ";
 }
+
+void printVec(vector<int>v2,string s ="")
+{
+     cout<<s;
+     for(int i=0;i<(int)v2.size();i++) cout << v2[i]<<" ";
+         
+    cout<<"\n";
+}
+
 int main() 
 {
    push_back();
+   cout<< arr.front() <<end;//first element print korba;
+   cout<< arr.back() <<endl; //last element print korba;
+   arr.back() = 500;//last elsement inti
+   printVec(arr,"My Vector");//print kora jonno;
+
 }
