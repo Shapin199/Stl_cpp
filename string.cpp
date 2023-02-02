@@ -103,4 +103,6 @@ cout<<a<<endl;
    	getline(cin,s);
     s.erase(2,5);
     cout<<s<<endl;
+
+    
 }
