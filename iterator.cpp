@@ -55,4 +55,33 @@ int main()
     {
         cout<<"sort "<< *it <<endl;
     }
+
+    cout<< *(arr.end()-1)<<endl;
+  
+    it = find(arr.begin(),arr.end(),41 );
+    cout<< it - arr.begin()<<endl;
+
+     if(it!= arr.end())
+       cout<<"found"<<endl;
+
+        auto x = "Sahpin";
+  cout<<x<<endl;
+
+  for(int x : arr)
+     cout << x<< " ";
+  
+    cout<<endl;
+
+    string s="Shapin";
+    for(auto x : s)
+       cout << x<< " ";
+     
+     cout<<endl;
+
+       for( auto &x : arr)
+           x+=2;
+    
+       for(auto x : arr)
+           cout << x<< " ";
+           
 }
