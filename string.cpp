@@ -104,5 +104,5 @@ cout<<a<<endl;
     s.erase(2,5);
     cout<<s<<endl;
 
-    
+
 }
