@@ -1,3 +1,7 @@
+/**
+ *    author:  Mohammad Irtisum
+ *    created: 29.01.2023        
+**/
 #include<bits/stdc++.h>
 using namespace std;
      
@@ -68,36 +72,36 @@ ll          ceil(ll a,ll b)     { return ( (a+(b-1)) / b ); }
      
       
 void solve()
+{
+  int n,m,cnt =0; cin>>n>>m;
+  if(m<n)
+  swap(n, m);
+ // cout<<n<<" "<<m;
+ // nl;
+    for(int i=n;i<=m;i++)
     {
-        int n,m,cnt =0; cin>>n>>m;
-        if(m<n)
-          swap(n, m);
-    // cout<<n<<" "<<m;
-    // nl;
-        for(int i=n;i<=m;i++)
-        {
-            if(i%10 == 2) cnt++;
-            else if(i%10 == 3) cnt++;
-            else if(i%10 == 9) cnt++;
-        }
-        cout<<cnt<<endl;
+        if(i%10 == 2) cnt++;
+         else if(i%10 == 3) cnt++;
+         else if(i%10 == 9) cnt++;
+    }
+    cout<<cnt<<endl;
   
     
     }
      
 int main()
+{
+    ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+     
+    int t = 1;
+     
+    cin >> t;
+     
+    for( int test_case = 1; test_case <= t; test_case++ )
     {
-        ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
-     
-        int t = 1;
-     
-        cin >> t;
-     
-        for( int test_case = 1; test_case <= t; test_case++ )
-        {
-            //cout << "Case " << test_case << ": ";
-            solve();
-        }
-     
-        return 0;
+         //cout << "Case " << test_case << ": ";
+         solve();
     }
+     
+    return 0;
+}
