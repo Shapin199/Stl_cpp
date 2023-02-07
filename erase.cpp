@@ -1,6 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+//**** vec.erase(position);
+
+//**** vec.erase(starPosition,endPosition+1); range delete;
+
+//****arr.clear(); all array deleted
+
+
+//****pop_back() remove the last element ;
+
 int main() 
 {
    int n;

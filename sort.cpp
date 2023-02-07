@@ -1,6 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
+// reverse sort;
+
+// ****sort(arr.rbegin(),arr.rend());
+
+// ****sort(arr.begin(),arr.end(),greater());  o(nlogn);
+
+
 int main() 
 {
     int n;

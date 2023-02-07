@@ -76,6 +76,10 @@ void solve()
   int n,m,cnt =0; cin>>n>>m;
   if(m<n)
   swap(n, m);
+
+//   arr.swap(arr2)
+
+
  // cout<<n<<" "<<m;
  // nl;
     for(int i=n;i<=m;i++)
