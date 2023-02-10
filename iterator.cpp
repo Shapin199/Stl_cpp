@@ -64,6 +64,9 @@ int main()
      if(it!= arr.end())
        cout<<"found"<<endl;
 
+// Range Based
+// For loop-------
+
         auto x = "Sahpin";
   cout<<x<<endl;
 
@@ -81,7 +84,19 @@ int main()
        for( auto &x : arr)
            x+=2;
     
-       for(auto x : arr)
+       for(auto x : arr) 
            cout << x<< " ";
+
+// Range Based
+// For loop-------input
+    
+     int n ; cin>>n;
+     vector <int> arr(n),arr2;
+     for(auto &x:arr)
+     {
+            cin>>x;
+     }
+  
+     for(int i =0; i< (int)arr.size();i++) cout<<arr[i]<<" ";
            
 }
