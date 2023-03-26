@@ -72,10 +72,10 @@ cout<<a<<endl;
 
                         string s;
                     getline(cin,s);
-                    //   string t =s.substr(3,4);//3 thakei start r 4 holo 4 char neba;
-                    //   cout<<t<<endl;
-                    //   string t =s.substr(3);//3 thakei start and last char  a jaba;
-                    //   cout<<t<<endl;
+                      string t =s.substr(3,4);//3 thakei start r 4 holo 4 char neba;
+                      cout<<t<<endl;
+                      string t =s.substr(3);//3 thakei start and last char  a jaba;
+                      cout<<t<<endl;
                     int pos = find(s.begin(),s.end(),' ')  - s.begin() ;
                     cout<<pos<<endl;
 

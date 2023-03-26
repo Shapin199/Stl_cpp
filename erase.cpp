@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// delete---------
+
 //**** vec.erase(position);
 
 //**** vec.erase(starPosition,endPosition+1); range delete;
